@@ -1,47 +1,41 @@
-# Project: Customer Churn Analysis for a Bank
-Problem Statement: Understanding what drives a customer to leave is crucial for banks. Churn prevention enables banks to create loyalty programs and retention campaigns, aiming to keep as many customers as possible.
+__Project__: __Customer Churn Analysis for a Bank__
 
-Task List:
+__Problem Statement__: Understanding what drives a customer to leave is crucial for banks. Churn prevention enables banks to create loyalty programs and retention campaigns, aiming to keep as many customers as possible.
 
-Data Import and Cleaning:
+__Task List__:
 
-Imported data from CSV and Excel files.
-Promoted column headers and adjusted data types as needed.
-Handled mixed data types during data preparation.
-Data Modeling:
+1.__Data Cleaning and Preparation__:
+ •	Handle mixed data types and rectify data types as needed.
+ •	Import data from CSV and Excel files, promoting column headers and ensuring data consistency.
 
-Created a star schema using dimension and fact tables.
-Developed a master data table for better data management.
-DAX Formulas:
+2.__Data Modeling__:
+ •	Create a star schema using dimension and fact tables.
+ •	Develop a master data table for efficient data management.
 
-Calculated key metrics such as Total Customers, Active Customers, Inactive Customers, Exit and Retained Customers.
-Identified Credit and Non-Credit Card Holders.
-Categorized customers by Credit Score (Fair, Poor, Good, Very Good, Excellent).
-Used the SWITCH function to create a Credit Type categorization.
-Calculated Previous Year Exit Customers.
-KPIs:
+3.__DAX Calculation__:
+ •	Created DAX formulas to calculate key metrics such as Total Customers, Active Customers, Inactive Customers, and Exit Customers.
+ •	Use DAX to identify Credit and Non-Credit Card Holders and categorize customers by Credit Score (Fair, Poor, Good, Very Good, Excellent).
+ •	Implement the SWITCH function for Credit Type categorization.
+ •	Calculate Previous Year Exit Customers for comparison.
 
-Implemented KPIs for Total Customers, Active and Inactive Customers, Credit and Non-Credit Card Holders.
-Visualizations:
+4.__Data Visualization__:
+ •	Design visualizations to track Active vs. Inactive Customers by Year.
+ •	Create charts for Exit Customers, including comparisons with Previous Year Exit Customers.
+ •	Visualize Exit Customers by Gender and Credit Score Type.
+ •	Develop visualizations to display Exit Customers by Credit and Non-Credit Categories.
 
-Yearly Analysis: Active vs. Inactive Customers by Year.
-Churn Analysis: Exit Customers and Previous Year Exit Customers by Year.
-Demographic Insights: Exit Customers by Gender and Credit Score Type.
-Category Breakdown: Exit Customers by Credit and Non-Credit Categories.
-Slicers:
+5.__Slicers__:
+ •	Implement slicers to filter data by Year, Month, and Location.
+ •	Add slicers to filter Exit and Retained Customers.
+ 
+6.__Insights from the Project__:
+ •	Analyze year-wise trends in Active and Inactive Customers.
+ •	Identify patterns in Exit Customers by Gender and Credit Score Types.
+ •	Compare Exit Customers with Previous Year trends.
 
-Enabled slicers to filter data by Year, Month, and Location.
-Added slicers for Exit Customers to filter Exit vs. Retain.
-Insights from the Project:
+7.__Learning from the Project__:
+ •	Improved data cleaning and preparation skills, especially handling mixed data types.
+ •	Developed proficiency in DAX formulas for calculating key metrics and creating custom functions like SWITCH.
+ •	Enhanced visualization techniques for effective communication of insights.
+ •	Gained a deeper understanding of customer churn in the banking industry.
 
-Analyzed year-wise trends in Active and Inactive Customers.
-Compared Exit Customers with Previous Year Exit Customers.
-Identified patterns in Exit Customers by Gender.
-Gained insights into Exit Customers based on Credit Score Types.
-Learning from the Project:
-
-Enhanced skills in data cleaning and preparation, especially handling mixed data types and changing data types.
-Utilized DAX formulas for calculating key performance metrics.
-Gained experience in creating custom functions like the SWITCH function.
-Developed visualization techniques to effectively communicate insights.
-Deepened understanding of customer churn in the banking industry.
