@@ -11,7 +11,7 @@ Task List:
 
  2. **Data Modeling:**
    - Created a star schema using dimension and fact tables.
-   - Developed a master data table for efficient data management.
+   - Developed a Master Date table for efficient data management.
 
  3. **DAX Calculation:**
    - Create DAX formulas to calculate key metrics such as Total Customers, Active Customers, Inactive Customers, and Exit 
