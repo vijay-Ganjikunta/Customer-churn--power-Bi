@@ -10,8 +10,8 @@ Task List:
    - Import data from CSV and Excel files, promoting column headers and ensuring data consistency.
 
  2. **Data Modeling:**
-   - Create a star schema using dimension and fact tables.
-   - Develop a master data table for efficient data management.
+   - Created a star schema using dimension and fact tables.
+   - Developed a master data table for efficient data management.
 
  3. **DAX Calculation:**
    - Create DAX formulas to calculate key metrics such as Total Customers, Active Customers, Inactive Customers, and Exit 
